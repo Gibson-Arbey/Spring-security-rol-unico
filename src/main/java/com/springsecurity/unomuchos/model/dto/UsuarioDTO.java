@@ -24,5 +24,5 @@ public class UsuarioDTO {
     /**
      * La contraseña del usuario encriptada.
      */
-    private String contrasenisaEncriptada;
+    private String contraseniaEncriptada;
 }

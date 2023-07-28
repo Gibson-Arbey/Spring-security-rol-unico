@@ -5,8 +5,8 @@ PRIMARY KEY (id),
 UNIQUE KEY (nombre)
 );
 
-INSERT IGNORE INTO authorities (id,authority) VALUES
+INSERT IGNORE INTO rol (id,nombre) VALUES
 (1,"ROL_ADMIN"),
-(2, "ROL_GERENTE"),
+(2,"ROL_GERENTE"),
 (3,"ROL_AUXILIAR"),
 (4,"ROL_CLIENTE");

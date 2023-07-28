@@ -11,4 +11,5 @@ import com.springsecurity.unomuchos.model.entity.UsuarioEntity;
 public interface UsuarioRepository extends JpaRepository<UsuarioEntity, Long> {
     
     Optional<UsuarioEntity> findByEmail(String email);
+
 }
