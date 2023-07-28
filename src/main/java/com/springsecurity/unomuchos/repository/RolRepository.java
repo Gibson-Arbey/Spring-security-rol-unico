@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.springsecurity.unomuchos.model.entity.RolEntity;
 
 @Repository
-public interface RolRepository extends JpaRepository<RolEntity, Long>{
+public interface RolRepository extends JpaRepository< RolEntity, Long >{
 
     RolEntity findByNombre(String nombre);
     
